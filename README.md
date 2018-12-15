@@ -1,2 +1,2 @@
 # ExpressRestfulApp
-Node.js+ExpressサーバーからAPIツールを配信するモックアップ
+Node.js+ExpressサーバーからAPIツールを配信するプラクティス
