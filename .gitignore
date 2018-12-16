@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+.idea/
+api/.idea/
+api/node_modules
+web/.gitignore
+web/.idea/
+web/node_modules
