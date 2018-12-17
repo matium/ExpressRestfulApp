@@ -57,6 +57,9 @@ typings/
 # dotenv environment variables file
 .env
 
+# MongoDB Data
+mongo_data/
+
 # next.js build output
 .next
 .idea/
