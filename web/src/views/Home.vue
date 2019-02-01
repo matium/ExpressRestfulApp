@@ -1,8 +1,10 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+  <v-content class="home">
+    <v-toolbar dark color="primary">
+      <v-toolbar-title>Vue + Express App</v-toolbar-title>
+    </v-toolbar>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  </v-content>
 </template>
 
 <script>

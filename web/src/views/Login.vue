@@ -1,9 +1,14 @@
 <template>
-  <div class="login">
-    <h2>Login Form</h2>
-    <p class="description">ExpressとMongoDBで作成されたAPIを通して、ログインを行うためのテストです。<br>ユーザー名とパスワードを入力してログインできるかをチェックしてください。</p>
-    <login-form></login-form>
-  </div>
+  <v-content class="login">
+    <v-toolbar dark color="primary">
+      <v-toolbar-title>Vue + Express App</v-toolbar-title>
+    </v-toolbar>
+    <v-container>
+      <h2 class="display-3">Login Form</h2>
+      <p class="subheading">ExpressとMongoDBで作成されたAPIを通して、ログインを行うためのテストです。<br>ユーザー名とパスワードを入力してログインできるかをチェックしてください。</p>
+      <login-form></login-form>
+    </v-container>
+  </v-content>
 </template>
 
 <script lang="ts">
